@@ -1,0 +1,12 @@
+/* Reseteando estilos del navegador */
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box; /*sume el padding y el borde con el elemento*/
+}
+main{
+    width: 100%; /*Tamaño del contenedor*/
+    height: 500px; /*alto del contenedor*/
+    border: 10px solid gray; /*Borde del contenedor*/
+    padding: 20px 35px; /*margenes internos del contenedor*/
+}
