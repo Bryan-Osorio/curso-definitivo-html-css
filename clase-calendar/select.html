@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECT EN HTML</title>
+</head>
+<body>
+
+    <h1>SELECT</h1>
+
+    <select name="cursos" id="cursos">
+        <optgroup label="desarrollo web">
+            <option value="HTML5">HTML5</option>
+            <option value="CSS3">CSS3</option>
+            <option value="Javascript">Javascript</option>
+        </optgroup>
+        <optgroup label="Backend">
+            <option value="php">PHP</option>
+            <option value="java">Java</option>
+            <option value="nodejs">Node.js</option>
+        </optgroup>
+    </select>
+
+    <h2>DATALIST</h2>
+
+    <input list="cursos">
+    <datalist id="cursos">
+        <option value="html"></option>
+        <option value="css"></option>
+        <option value="Javascript"></option>
+    </datalist>
+    
+</body>
+</html>
