@@ -1,0 +1,46 @@
+.navbar{
+    list-style: none; /*Quitamos la decoracion de la lista*/
+    background-color: darkcyan; /*Color de fondo*/
+}
+
+.navbar__item{
+    display: inline-block; /*Ponemos elementos de forma horizontal*/
+}
+
+.navbar__link{
+    padding: 20px;
+    display: block;
+    text-decoration: none; /*Quitar la decoracion de los enlaces*/
+    font-size: 1.5em; /*Tamaño de la fuente*/
+    color: #000; /*Color de letra*/
+
+}
+
+/* PSEUDOCLASES: define el estilo de un estado */
+
+/* pseudoclase HOVER 
+
+    permite cambiar el estado de un elemento cuando el mouse se sobrepone sobre él
+
+*/
+.navbar__link:hover{
+    background-color: darkmagenta;
+}
+
+/* pseudoclase ACTIVE
+
+    se activa al hacer click
+
+*/
+
+.navbar__link:active{
+    color: white;
+}
+
+/* PSEUDOELEMENTO: define el estgilo de una parte de un elemento */
+
+/* pseudoelemento AFTER */
+
+.navbar__link::before{
+    content: " | ";
+}
