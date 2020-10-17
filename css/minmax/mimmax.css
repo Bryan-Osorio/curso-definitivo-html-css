@@ -1,0 +1,28 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+main{
+	width: 100vw; /*Viemport Width*/
+	height: 100vh; /*Viemport heigth*/
+	background-color: purple;
+}
+
+/*REGLA IMPORTANTE: cada vez que usemos un MIN-WIDTH o MAX-WIDTH 
+tenemos que tener un WIDTH de base*/
+
+section{
+	font-size: 1.6rem;
+	width: 80%;
+	min-width: 320px; /*Tamaño minimo del contenedor*/
+	max-width: 500px; /*Tamaño maximo del contenedor*/
+	min-height: 500px; /*alto minimo de un contenedor*/
+	background-color: red;
+	margin: 0 auto; /*Centra el contenedor*/
+}
