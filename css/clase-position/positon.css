@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+.padre{
+	border:2px dotted #000;
+	display: inline-block;
+	position: relative;
+}
+
+.box{
+	display: inline-block;
+	font-size: 1.6rem;
+	background-color: darkcyan;
+	width: 10rem;
+	height: 10rem;
+}
+
+.dos{
+	background-color: gold;
+	position: absolute;
+}
+
+.tres{
+	position:relative;
+	top: 3rem;
+}
