@@ -1,0 +1,23 @@
+
+/*Medida EM 
+
+	toma el tamaño de la fuente del padre mas cercano, por ejemplo si el padre
+	tiene el tamaño de fuente de 16px entonces 1em seria igual a 16px
+
+*/
+
+.text-container{
+	font-size: 20px; /*medida en pixeles */
+}
+
+p{
+	font-size: 2em; /*1em = 20px*/
+}
+
+.text-container div{
+	font-size: 16px; /*medida en pixeles*/
+}
+
+div p{
+	font-size: 1.5em; /*1em = 16px */
+}
