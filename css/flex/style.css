@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-size: 1.6rem;
+}
+
+.container{
+	border:.3rem solid #000;
+	display: flex; /*Activamos el flexbox*/
+	flex-direction: row; /*Direccion de los elementos en el main axis*/
+	flex-wrap: wrap; /*Si un elemento no cabe en una linea 
+	la pone en otra linea*/
+	justify-content: space-between; /*Alinea el contenido de forma horizontal*/
+
+
+}
+
+.box{
+	width: 10rem;
+	height: 10rem;
+}
+
+.box1{
+	background-color: blue;
+}
+
+.box2{
+	background-color: blueviolet;
+}
+
+.box3{
+	background-color: burlywood;
+}
+
+.box4{
+	background-color: cadetblue;
+}
+
+.box5{
+	background-color: coral;
+}
+
+.box6{
+	background-color: salmon;
+}
