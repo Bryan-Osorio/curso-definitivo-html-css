@@ -14,40 +14,54 @@ body{
 
 .container{
 	border:.3rem solid #000;
+	
 	display: flex; /*Activamos el flexbox*/
-	flex-direction: row; /*Direccion de los elementos en el main axis*/
+	/*flex-direction: row; /*Direccion de los elementos en el main axis
+	justify-content: space-between; /*Alinea el contenido de forma horizontal*/
+	/*height: 50vh;*/
+
 	flex-wrap: wrap; /*Si un elemento no cabe en una linea 
 	la pone en otra linea*/
-	justify-content: space-between; /*Alinea el contenido de forma horizontal*/
+	align-items: flex-start;/*alineacion de los elementos de forma vertical*/
 
 
 }
 
 .box{
-	width: 10rem;
 	height: 10rem;
+	flex-basis: 10rem; /*Tamaño inicial de un elemento en flexbox*/
+	flex-grow: 1;
 }
 
 .box1{
 	background-color: blue;
+	/*order: 1; orden que se muestran los elementos*/
+	/*flex-grow: 1; El elemento crece todo el espacio disponible*/
+	flex-basis: 20rem;
 }
 
 .box2{
 	background-color: blueviolet;
+	/*order: 5; orden que se muestran los elementos*/
+	/*flex-grow: 1; El elemento crece todo el espacio disponible*/
 }
 
 .box3{
 	background-color: burlywood;
+	/*order: 2; orden que se muestran los elementos*/
 }
 
 .box4{
 	background-color: cadetblue;
+	/*order: 6; orden que se muestran los elementos*/
 }
 
 .box5{
 	background-color: coral;
+	/*order: 3; orden que se muestran los elementos*/
 }
 
 .box6{
 	background-color: salmon;
+	/*order: 4; orden que se muestran los elementos*/
 }
