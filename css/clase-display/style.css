@@ -1,0 +1,50 @@
+/*
+
+En un elemento con display:inline no puedo usar margin ni padding arriba 
+ni abajo, solo derecha e izquierda. Tampoco se puede aplicar width 
+o height.
+
+En un elemento con display:block el contenido del elemento toma el 100% 
+del width, se puede usar margin y padding por todos los lados.
+
+En un elemento con display:inline-block, se puede usar margin y padding 
+por todos lados, así como darle width y height, y el contenido 
+es del mismo tamaño que el elemento.
+
+*/
+
+html{
+	font-size: 62.5%;
+}
+
+p{
+	font-size: 1.6rem;
+}
+
+span{
+	font-size: 1.6rem;
+	background-color: darkcyan;
+}
+
+
+.block-element{
+	background-color: green;
+	margin: 1rem;
+	padding: 2rem;
+	font-size: 1.6rem;
+}
+
+.nav{
+	background-color: beige;
+	text-align: center;
+	list-style: none;
+	padding: 2rem;
+	font-size: 2rem;
+}
+
+.nav li{
+	display: inline-block;
+	margin: 1rem 0;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
