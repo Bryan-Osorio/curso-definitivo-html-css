@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+.header{
+	background-color: red;
+	box-shadow: 4px 4px 10px blue;
+	width: 100%
+}
+
+.logo{
+	position: relative;
+	left: 10%;
+	width: 10%;
+	height: 10%;
+}
+
+.imagen{
+	width: 10rem;
+}
+
+.nav{
+	position: absolute;
+	top: 4%;
+	left: 60%;
+}
+
+.navbar{
+	list-style: none;
+}
+
+.navbar__item{
+	display: inline-block;
+}
+
+.navbar__link{
+	display: block;
+	font-size: 2.3rem;
+	text-decoration: none;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	color: #fff;
+}
+
+.blue{
+	color: blue;
+}
+
+.aside{
+	background-color: blue;
+	width: 33%;
+	padding-top: 2rem; 
+	padding-bottom: 2rem; 
+}
+
+.aside__div{
+	width: 33rem;
+	height: 20rem;
+	background-image: url("./img/fondo.jpg");
+	background-size: cover;
+	margin: 2rem;
+	border-radius: 10px;
+}
+
+.main{
+	 width: 67%;
+     position: absolute;
+     top: 11.3%;
+     left: 33%;
+     padding: 2rem;
+}
+
+
+.parrafo{
+	font-size: 1.6rem;
+	margin-bottom: 2rem;
+}
+
+.footer{
+	background-color: red;
+	padding: 3rem;
+	text-align: center;
+	font-size: 1.9rem;
+	color: #fff;
+
+}
+
+
