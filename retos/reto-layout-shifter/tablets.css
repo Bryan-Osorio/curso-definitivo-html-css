@@ -1,0 +1,39 @@
+
+.cursos{
+	width: 46%;
+	margin-right: 2rem;
+}
+
+.lista-cursos{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.navbar-mobile{
+	display: none;
+}
+
+.navbar{
+	display: block;
+	display: flex;
+}
+
+.content-header{
+	align-items: center;
+}
+
+.navbar__item{
+	list-style: none;
+}
+
+.navbar__link{
+	text-decoration: none;
+	font-size: 2rem;
+	color: #fff;
+	display: block;
+	padding: 0 2rem;
+}
+
+.aside{
+	display: none;
+}

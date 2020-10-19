@@ -1,0 +1,49 @@
+.container{
+	display: flex;
+}
+
+.main{
+	padding: 2rem;
+	width: 75%;
+}
+
+.cursos{
+	width: 40%;
+	margin: 0 auto;
+	margin-bottom: 3rem;
+}
+
+
+.aside{
+	display: block;
+	width: 25%;
+	padding: 2rem;
+	font-size: 1.6rem;
+}
+
+.widget{
+	margin-bottom: 2rem;
+}
+
+.title-aside{
+	text-align: center;
+	color: #05668D;
+	margin-bottom: 2rem;
+}
+
+.aside__item{
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+}
+
+.aside__link{
+	text-decoration: none;
+	display: block;
+	padding: 2rem;
+	color: #028090;
+
+}
+
+.informacion{
+	line-height: 27px;
+}
