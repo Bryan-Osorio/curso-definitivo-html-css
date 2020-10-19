@@ -1,0 +1,14 @@
+.aside{
+	background-color: transparent;
+}
+.aside__div{
+	width: 48%;
+	float:left;
+	margin-right: 1rem;
+
+}
+
+.navbar__link{
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
