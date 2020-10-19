@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+
+.c1,.c2,.c3,.c4,.c5,.c6{
+	width: 100%;
+	min-width: 15rem;
+	height: 15rem;
+}
+
+
+.c1{
+	background-color: darkcyan;
+}
+
+.c2{
+	background-color: gold;
+}
+
+.c3{
+	background-color: greenyellow;
+}
+
+.c4{
+	background-color: lime;
+}
+
+.c5{
+	background-color: cyan;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.c4{
+	height: auto;
+}
