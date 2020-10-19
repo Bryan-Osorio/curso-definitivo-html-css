@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Imagenes Responsive</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+	<main>
+		<picture>
+			<!-- La etiqueta que tenga el VIEMPORT mas grande tiene que ir siempre arriba -->
+			<source srcset="./img/large.jpg" media="(min-width:1300px)">
+			<source srcset="./img/medium.jpg" media="(min-width:1000px)">
+			<img src="./img/small.jpg" alt="Es una imagen de ejemplo">
+		</picture>
+	</main>
+	
+</body>
+</html>
